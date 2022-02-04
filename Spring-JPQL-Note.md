@@ -632,11 +632,11 @@ select m.*
 
 
 
-![페치조인](/media/mwkang/Klevv/Spring 일지/ORM/12.03/페치조인.png)
+![페치조인](https://user-images.githubusercontent.com/79822924/152466870-5ccb692d-1362-4191-a8c2-df9f4aaf7ba9.png)
 
-![페치조인2](/media/mwkang/Klevv/Spring 일지/ORM/12.03/페치조인2.png)
+![페치조인2](https://user-images.githubusercontent.com/79822924/152466878-eb9a94c1-2b2d-45ff-aa5c-b656d0137d67.png)
 
-![페치조인3](/media/mwkang/Klevv/Spring 일지/ORM/12.03/페치조인3.png)
+![페치조인3](https://user-images.githubusercontent.com/79822924/152466888-e5083af8-48ac-466e-a18c-d7e7a08d6b84.png)
 
 ```java
 // N + 1 문제 발생
@@ -670,11 +670,11 @@ SELECT M.*, T.* FROM MEMBER M INNER JOIN TEAM T ON M.TEAM_ID=T.ID
 
 
 
-![컬렉션 페치 조인](/media/mwkang/Klevv/Spring 일지/ORM/12.03/컬렉션 페치 조인.png)
+![컬렉션 페치 조인](https://user-images.githubusercontent.com/79822924/152466896-4b208c7f-207a-4026-812c-025a55404301.png)
 
-![컬렉션 페치 조인2](/media/mwkang/Klevv/Spring 일지/ORM/12.03/컬렉션 페치 조인2.png)
+![컬렉션 페치 조인2](https://user-images.githubusercontent.com/79822924/152466900-30594295-21f5-480c-af29-2c9cd3ea925b.png)
 
-![컬렉션 페치 조인3](/media/mwkang/Klevv/Spring 일지/ORM/12.03/컬렉션 페치 조인3.png)
+![컬렉션 페치 조인3](https://user-images.githubusercontent.com/79822924/152466908-82ebc6b5-da61-41c5-b3f5-396fda6dbef7.png)
 
 ```java
 // 컬렉션 페치 조인
@@ -703,7 +703,7 @@ SELECT T.*, M.* FROM TEAM T INNER JOIN MEMBER M ON T.ID=M.TEAM_ID
 
 
 
-![distinct 페치 조인](/media/mwkang/Klevv/Spring 일지/ORM/12.03/distinct 페치 조인.png)
+![distinct 페치 조인](https://user-images.githubusercontent.com/79822924/152466922-66ca733e-9412-4a0f-975e-ea265778a19c.png)
 
 ```java
 // DISTINCT로 데이터 뻥튀기 제거
@@ -828,7 +828,7 @@ private List<Member> members = new ArrayList<>();
 
 ### TYPE & TREAT
 
-![다형성 쿼리](/media/mwkang/Klevv/Spring 일지/ORM/12.03/다형성 쿼리.png)
+![다형성 쿼리](https://user-images.githubusercontent.com/79822924/152466940-2cecd470-cf0c-4c8e-b1b8-ad28a2610614.png)
 
 ```java
 // TYPE
