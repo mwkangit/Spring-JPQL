@@ -94,4 +94,4 @@ int resultCount = em.createQuery("update Member m set m.age = 20")
 
 
 
-[Spring-JPQL.md]()
+[Spring-JPQL-Note.md](https://github.com/mwkangit/Spring-JPQL/blob/master/Spring-JPQL-Note.md)
